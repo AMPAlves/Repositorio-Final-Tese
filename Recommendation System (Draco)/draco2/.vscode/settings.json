@@ -1,0 +1,19 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": true,
+  "python.testing.pytestArgs": ["draco"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".mypy_cache": true,
+    ".pytype": true,
+    ".pytest_cache": true,
+    "**/__pycache__": true,
+    "**/*ipynb_checkpoints": true
+  },
+  "autoDocstring.docstringFormat": "sphinx",
+  "autoDocstring.guessTypes": true
+}
