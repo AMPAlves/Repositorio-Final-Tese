@@ -1,0 +1,63 @@
+{
+	"questionID": "1211",
+	"taskID": "12111",
+	"output": {
+		"target_type": "dataset",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name": "",
+				"attribute_type": "",
+				"values": []
+			},
+			{
+				"attribute_name": "",
+				"attribute_type": "",
+				"values": []
+			}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "lat",
+									"order": 1,
+									"attribute_type": "continuous",
+									"values": []
+								},
+								{
+									"attribute_name": "lng",
+									"order": 0,
+									"attribute_type": "continuous",
+									"values": []
+								},
+								{
+									"attribute_name": "population",
+									"order": 2,
+									"attribute_type": "nominal",
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

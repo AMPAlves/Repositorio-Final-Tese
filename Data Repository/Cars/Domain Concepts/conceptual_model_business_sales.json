@@ -1,0 +1,53 @@
+{
+  "conceptual_model": {
+    "name_model": "Business Conceptual Model",
+    "classes": [
+      {
+        "class_name": "Orders",
+        "attributes": [
+          { "attribute_name": "orderId", "type": "string" },
+          { "attribute_name": "productId", "type": "string" },
+          { "attribute_name": "costumerId", "type": "string" },
+          { "attribute_name": "rowId", "type": "string" },
+          { "attribute_name": "order_date", "type": "date" },
+          { "attribute_name": "quantity", "type": "int" },
+          { "attribute_name": "ship_date", "type": "date" },
+          { "attribute_name": "ship_mode", "type": "string" },
+          { "attribute_name": "segment", "type": "string" }
+        ]
+      }
+        ],
+        "associations": [
+          {
+            "class_name": "Sales",
+            "attributes": [
+              { "attribute_name": "orderId", "type": "string" },
+              { "attribute_name": "sales", "type": "float" },
+              { "attribute_name": "discount", "type": "float" },
+              { "attribute_name": "profit", "type": "float" }
+          ]
+          },
+        {
+          "class_name": "Products",
+          "attributes": [
+            { "attribute_name": "productId", "type": "string" },
+            { "attribute_name": "product_name", "type": "string" },
+            { "attribute_name": "category", "type": "string" },
+            { "attribute_name": "sub_category", "type": "string" }
+          ]
+        },
+        {
+          "class_name": "Costumers",
+          "attributes": [
+            { "attribute_name": "costumerId", "type": "integer" },
+            { "attribute_name": "costumer_name", "type": "date" },
+            { "attribute_name": "city", "type": "string" },
+            { "attribute_name": "country", "type": "string" },
+            { "attribute_name": "state", "type": "string" },
+            { "attribute_name": "region", "type": "string" },
+            { "attribute_name": "postal_code", "type": "int" }
+          ]
+        }
+    ]
+  }
+}

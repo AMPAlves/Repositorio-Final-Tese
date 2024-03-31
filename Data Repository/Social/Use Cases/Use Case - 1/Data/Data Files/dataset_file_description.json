@@ -1,0 +1,156 @@
+{
+	"domainID": "15",
+	"dataset": [
+		{
+			"datasetID": "151",
+			"dataset_files": [
+				{
+					"dataset_file_name": "dataset_file_variant_analytics",
+					"domain_description": "The dataset represents positions in the DNA (variants) where variation may occur, the gene affected by each variant, and the genotype of the patient (one or two copies of the alternative allele).The dataset contains six columns representing this information: CHROM, POS, REF, ALT, GENOTYPE, and GENE.",
+					"fields": [
+						{
+							"field_name": "Country",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Region",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Birth Rate",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Business Tax Rate",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "CO2 Emissions",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Days to Start Business",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Ease of Business",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Energy Usage",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "GDP",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "GDP per Capita",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Health Exp % GDP",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Health Exp/Capita",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Hours to do Tax",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Infant Mortality Rate",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Internet Usage",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Lending Interest",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Life Expectancy",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Life Expectancy Male",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Life Expectancy Female",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Mobile Phone Usage",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Number of Records",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Population 0-14",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Population 15-64",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Population 65+",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Population Total",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Population Urban",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Tourism Inbound",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Tourism Outbound",
+							"field_structure":"row",
+							"field_datatype": "string"
+						}
+					]	
+				}
+			]
+		}
+	]
+}

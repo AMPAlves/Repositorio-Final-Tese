@@ -1,0 +1,13 @@
+{
+	"questionID": "1412",
+	"taskID": "14122",
+	"task_selection": [
+		{
+			"task": "Compare",
+			"subtask":[],
+			"domain_specification": "Compare the discounts of the different categories.",
+			"analytical_specification": "What differences (when comparing) are found in the average discount between categories.",
+			"expected_output": "A dataset with the list of average discounts along the three different main categories"
+		}
+	]
+}

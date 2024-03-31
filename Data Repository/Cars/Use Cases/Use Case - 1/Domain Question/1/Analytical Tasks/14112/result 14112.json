@@ -1,0 +1,57 @@
+{
+	"questionID": "1411",
+	"taskID": "14112",
+	"output": {
+		"target_type": "dataset",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			},
+			{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "brand",
+									"order": 0,
+									"attribute_type": "Discrete",
+									"values": []
+								},
+								{
+									"attribute_name": "origin",
+									"order": 1,
+									"attribute_type": "Discrete",
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

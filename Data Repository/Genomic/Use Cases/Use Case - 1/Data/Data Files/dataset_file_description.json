@@ -1,0 +1,52 @@
+{
+	"domainID": "13",
+	"dataset": [
+		{
+			"datasetID": "131",
+			"dataset_files": [
+				{
+					"dataset_file_name": "dataset_file_variant_analytics",
+					"domain_description": "The dataset represents positions in the DNA (variants) where variation may occur, the gene affected by each variant, and the genotype of the patient (one or two copies of the alternative allele).The dataset contains six columns representing this information: CHROM, POS, REF, ALT, GENOTYPE, and GENE.",
+					"fields": [
+						{
+							"field_name": "CHROM",
+							"field_description": "Each variant is represented by its position in the DNA. This position is represented by the chromosome (CHROM).",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "POS",
+							"field_description": "Each variant is represented by its position in the DNA. This position is represented by the sequence position where the variant occurs in the chromosome (POS).",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "REF",
+							"field_description": "Each variant is represented by its position in the DNA. This position is represented by the reference allele (REF). The reference allele (REF) is represented by a 0, and each of the alternative alleles are represented by 1,2,3… etc.",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "ALT",
+							"field_description": "Each variant is represented by its position in the DNA. This position is represented by all possible alternative alleles that could be observed in that position (ALT)",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "GENOTYPE",
+							"field_description": "The genotype (GENOTYPE) determines which alleles the patient has at the studied position. Since humans have two copies of each chromosome, the GENOTYPE value also represents if the patient presents the variant in one copy (heterozygote) or in both copies (homozygote).",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "GENE",
+							"field_description": "The GENE column defines the gene or genes affected by the studied variant. ",
+							"field_structure":"row",
+							"field_datatype": "string"
+						}
+					]
+				}
+			]
+		}
+	]
+}

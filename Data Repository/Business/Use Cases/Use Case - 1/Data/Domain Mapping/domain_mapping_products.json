@@ -1,0 +1,48 @@
+{
+	"mapping": [
+		{
+			"class": {
+				"class_name": "Products",
+				"class_attribute": "productID",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Product ID",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Products",
+				"class_attribute": "product_name",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Product Name",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Products",
+				"class_attribute": "category",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Category",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Products",
+				"class_attribute": "sub_category",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Sub_category",
+				"data_type": "string"
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"questionID": "1311",
+	"taskID": "13113",
+	"task_selection": [
+		{
+			"task": "Determine Distribution",
+			"subtask":[],
+			"analytical_specification": "What are the distribution of variants along the genome in a sample?",
+			"domain_specification": "Visualize the distribution of the variants along the genome in a sample",
+			"expected_output": "A list of multiple variants along the genome in a sample"
+		}
+	]
+}

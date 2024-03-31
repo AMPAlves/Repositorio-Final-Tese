@@ -1,0 +1,361 @@
+﻿phase,domain,type question,llm,domain question,expert answer,model answer,domain understanding eval,question understanding eval,task selection eval
+2,Business,Direct,GPT-3.5,"""What is the average quantity of products sold per order?""",Aggregate,Aggregate+Aggregate+Compute Attribute,5,4,3
+2,Business,Direct,GPT-3.5,"""What is the total profit for each sub-category of products?""",Aggregate,Aggregate+Grouping+Categorize,4,4,3
+2,Business,Direct,GPT-3.5,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""",Find Anomalies,Find Anomalies+Comparison,4,4,4
+2,Business,Direct,GPT-3.5,"""What are the profit differences between categories?""",Aggregate+Comparison,Aggregate +Comparison,5,5,5
+2,Business,Direct,GPT-3.5,"""How many products fall into each sub-category?""",Aggregate+Determine Distribution,Aggregate,3,3,2
+2,Business,Interpretative,GPT-3.5,"""What is the month, of each year, with the biggest profit ratio?""",Compute Attribute+Aggregate+Compare,Aggregate+Compute Attribute+Identify,3,3,3
+2,Business,Interpretative,GPT-3.5,"""How many sales were executed in the last financial semester?""",Aggregate,Aggregate,5,5,5
+2,Business,Interpretative,GPT-3.5,"""Are there variations in the average discount rates across different product categories?""",Aggregate+Relationship,Aggregate+Compare,5,5,4
+2,Business,Interpretative,GPT-3.5,"""Can we identify the most profitable month based on order dates?""",Aggregate+Determine Distribute,Aggregate+Relationship,3,3,2
+2,Business,Interpretative,GPT-3.5,"""Indicate the possible correlation between average profit of a category for a region""",Compute Attribute+Aggregate+Relationship,Aggregate+Relationship+Comparison,4,4,4
+2,Business,Interpretative,GPT-3.5,"""Can we identify the top 5 products by sales revenue?""", Compute Attribute+Aggregate,Aggregate+Rank+Sort,5,3,2
+2,Business,Interpretative,GPT-3.5,"""What is the average discount per sale, for each month of the previous year, and who do they relate?""", Aggregate+Relationship,Aggregate+Grouping+Relationship,4,4,4
+2,Business,Interpretative,GPT-3.5,"""Who are the best monthly customers based on their amount of sales?""", Determine Distribution +Sort,Aggregate+Rank+Relationship,3,2,1
+2,Business,Direct,Bing GPT-4,"""What is the average quantity of products sold per order?""", Aggregate,Aggregate,5,4,5
+2,Business,Direct,Bing GPT-4,"""What is the total profit for each sub-category of products?""", Aggregate,Aggregate,5,5,5
+2,Business,Direct,Bing GPT-4,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""", Find Anomalies,Find Anomalies,5,5,5
+2,Business,Direct,Bing GPT-4,"""What are the profit differences between categories?""",Aggregate+Comparison,Comparison,4,3,3
+2,Business,Direct,Bing GPT-4,"""How many products fall into each sub-category?""",Aggregate+Determine Distribution,Aggregate,3,3,2
+2,Business,Interpretative,Bing GPT-4,"""What is the month, of each year, with the biggest profit ratio?""", Compute Attribute+Aggregate+Compare,Compute Attribute Find Extreme,4,4,4
+2,Business,Interpretative,Bing GPT-4,"""How many sales were executed in the last financial semester?""", Aggregate,Aggregate ,5,5,5
+2,Business,Interpretative,Bing GPT-4,"""Are there variations in the average discount rates across different product categories?""", Aggregate+Relationship,Aggregate+Pattern,5,4,3
+2,Business,Interpretative,Bing GPT-4,"""Can we identify the most profitable month based on order dates?""", Aggregate+Determine Distribute,Compute Attribute+Aggregate+Find Extreme,3,3,3
+2,Business,Interpretative,Bing GPT-4,"""Indicate the possible correlation between average profit of a category for a region""", Compute Attribute+Aggregate+Relationship,Aggregate+Relationship,3,4,4
+2,Business,Interpretative,Bing GPT-4,"""Can we identify the top 5 products by sales revenue?""", Compute Attribute+Sort,Aggregate+Sort+Find Extreme,4,4,3
+2,Business,Interpretative,Bing GPT-4,"""What is the average discount per sale, for each month of the previous year, and who do they relate?""", Aggregate+Relationship,Compute Attribute+Aggregate+Relationship,3,3,3
+2,Business,Interpretative,Bing GPT-4,"""Who are the best monthly customers based on their amount of sales?""", Determine Distribution+Sort,Compute Attribute+Aggregate+Rank+Find Extreme,3,3,2
+2,Business,Direct,Mixtral 8x7B,"""What is the average quantity of products sold per order?""", Aggregate,Aggregate,5,5,5
+2,Business,Direct,Mixtral 8x7B,"""What is the total profit for each sub-category of products?""", Aggregate,Aggregate+Pattern,3,2,3
+2,Business,Direct,Mixtral 8x7B,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""", Find Anomalies,Find Anomalies,5,5,5
+2,Business,Direct,Mixtral 8x7B,"""What are the profit differences between categories?""",Aggregate+Comparison,Aggregate+Pattern,4,4,3
+2,Business,Direct,Mixtral 8x7B,"""How many products fall into each sub-category?""",Aggregate+Determine Distribution,Aggregate+Relationship,4,3,3
+2,Business,Interpretative,Mixtral 8x7B,"""What is the month, of each year, with the biggest profit ratio?""", Compute Attribute+Aggregate+Compare,Aggregate+Find Clusters+ Relationships,3,1,2
+2,Business,Interpretative,Mixtral 8x7B,"""How many sales were executed in the last financial semester?""", Aggregate,Organize+Pattern,3,1,1
+2,Business,Interpretative,Mixtral 8x7B,"""Are there variations in the average discount rates across different product categories?""", Aggregate+Relationship,Aggregate+Compare,5,4,4
+2,Business,Interpretative,Mixtral 8x7B,"""Can we identify the most profitable month based on order dates?""", Aggregate+Determine Distribute,Organize+Aggregate+Relationship,4,3,2
+2,Business,Interpretative,Mixtral 8x7B,"""Indicate the possible correlation between average profit of a category for a region""", Compute Attribute+Aggregate+Relationship,Aggregate+Find Anomalies+Relationship,2,1,2
+2,Business,Interpretative,Mixtral 8x7B,"""Can we identify the top 5 products by sales revenue?""", Compute Attribute+ Aggregate+Sort,Aggregate+Comparison,4,4,4
+2,Business,Interpretative,Mixtral 8x7B,"""What is the average discount per sale, for each month of the previous year, and who do they relate?""", Aggregate+Relationship,Organize+Aggregate+Relationship,4,4,4
+2,Business,Interpretative,Mixtral 8x7B,"""Who are the best monthly customers based on their amount of sales?""", Determine Distribution+Sort,Sort+Aggregate+Rank,2,2,1
+2,Business,Direct,GPT-4,"""What is the average quantity of products sold per order?""", Aggregate,Aggregate,5,4,5
+2,Business,Direct,GPT-4,"""What is the total profit for each sub-category of products?""", Aggregate,Aggregate,5,5,5
+2,Business,Direct,GPT-4,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""", Find Anomalies,Find Anomalies,3,5,5
+2,Business,Direct,GPT-4,"""What are the profit differences between categories?""",Aggregate+Comparison,Comparison,4,3,3
+2,Business,Direct,GPT-4,"""How many products fall into each sub-category?""",Aggregate+Determine Distribution,Aggregate,3,2,2
+2,Business,Interpretative,GPT-4,"""What is the month, of each year, with the biggest profit ratio?""", Compute Attribute+Aggregate+Compare,Compute Attribute+Aggregate+Compare,5,5,5
+2,Business,Interpretative,GPT-4,"""How many sales were executed in the last financial semester?""", Aggregate,Aggregate+Pattern,4,3,3
+2,Business,Interpretative,GPT-4,"""Are there variations in the average discount rates across different product categories?""", Aggregate+Relationship,Aggregate+Comparison,4,4,4
+2,Business,Interpretative,GPT-4,"""Can we identify the most profitable month based on order dates?""", Aggregate+Determine Distribute,Aggregate+Find Extreme,4,3,3
+2,Business,Interpretative,GPT-4,"""Indicate the possible correlation between average profit of a category for a region""", Compute Attribute+Aggregate+Relationship,Aggregate+Relationship,3,4,4
+2,Business,Interpretative,GPT-4,"""Can we identify the top 5 products by sales revenue?""", Compute Attribute+Aggregate+Sort,Aggregate+Sort+Find Extreme,5,4,4
+2,Business,Interpretative,GPT-4,"""What is the average discount per sale, for each month of the previous year, and who do they relate?""", Aggregate+Relationship,Aggregate+Pattern+Relationship,4,2,3
+2,Business,Interpretative,GPT-4,"""Who are the best monthly customers based on their amount of sales?""", Determine Distribution+Sort,Aggregate+Find Extreme,3,3,3
+2,Business,Direct,Gemini 1.0,"""What is the average quantity of products sold per order?""",Aggregate,Aggregate,3,4,5
+2,Business,Direct,Gemini 1.0,"""What is the total profit for each sub-category of products?""",Aggregate,Organize+Aggregate,4,4,4
+2,Business,Direct,Gemini 1.0,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""",Find Anomalies,Find Anomalies,5,5,5
+2,Business,Direct,Gemini 1.0,"""What are the profit differences between categories?""",Aggregate+Comparison,Aggregate+Comparison,5,5,5
+2,Business,Direct,Gemini 1.0,"""How many products fall into each sub-category?""",Determine Distribution,Organize+Aggregate,2,2,2
+2,Business,Interpretative,Gemini 1.0,"""What is the month, of each year, with the biggest profit ratio?""", Compute Attribute+Aggregate+Compare,Compute Attribute+Grouping+Find Extreme+Sort+Select Top ,3,2,2
+2,Business,Interpretative,Gemini 1.0,"""How many sales were executed in the last financial semester?""", Aggregate,Filter+Aggregate,4,4,4
+2,Business,Interpretative,Gemini 1.0,"""Are there variations in the average discount rates across different product categories?""", Aggregate+Relationship,Aggregate+Comparison,5,4,4
+2,Business,Interpretative,Gemini 1.0,"""Can we identify the most profitable month based on order dates?""", Aggregate+Determine Distribute,Grouping+Aggregate+Find Extreme,4,4,3
+2,Business,Interpretative,Gemini 1.0,"""Indicate the possible correlation between average profit of a category for a region""", Compute Attribute+Aggregate+Relationship,Grouping+Aggregate+Relationship,4,4,4
+2,Business,Interpretative,Gemini 1.0,"""Can we identify the top 5 products by sales revenue?""", Compute Attribute+Aggregate+Sort,Aggregate+Sort+Select Top ,3,1,1
+2,Business,Interpretative,Gemini 1.0,"""What is the average discount per sale, for each month of the previous year, and who do they relate?""", Aggregate+Relationship ,Aggregate+Grouping,2,2,2
+2,Business,Interpretative,Gemini 1.0,"""Who are the best monthly customers based on their amount of sales?""",Determine Distribution+Sort,Grouping+Aggregate+Aggregate,2,2,1
+2,Genome,Direct,GPT-3.5,"""What's the number of unique chromosomes?""",Aggregate+Determine Distribution,Determine Distribution+Aggregate,5,5,5
+2,Genome,Direct,GPT-3.5,"""What is the overall amount of Variants across different chromosomes?""", Aggregate+Determine Distribution,Relationship+Aggregate,3,2,2
+2,Genome,Direct,GPT-3.5,"""Are there positional patterns in a chromosome?""", Pattern,Pattern+Relationship,5,4,2
+2,Genome,Direct,GPT-3.5,"""Show the variants near a specific position""", Find Cluster,Relationship+Sort,3,2,2
+2,Genome,Direct,GPT-3.5,"""What are the highest and least occurent values for ALT?""", Aggregate+Determine Distribution,Aggregate +Find Extreme,3,2,2
+2,Genome,Interpretative,GPT-3.5,"""What are the individual REF and ALT alleles of each chromosome for each genotype?""", Compute Attribute  Determine Distribution,Grouping+Aggregate+Relationship,3,3,2
+2,Genome,Interpretative,GPT-3.5,"""What are all the variants that occur in a PSN1 gene and in which copy do they appear?""", Categorize  Relationship,Aggregate+Grouping+Relationship,4,4,4
+2,Genome,Interpretative,GPT-3.5,"""What is the distribution of variants along the genome in a sample?""", Compute Attribute+Determine Distribution,Aggregate+Pattern+Determine Distribution,5,4,3
+2,Genome,Interpretative,GPT-3.5,"""Which are the genotypes that tend to be associated with a specific ALT allele?""", Relationship,Grouping+Relationship+Find Extreme,5,5,4
+2,Genome,Interpretative,GPT-3.5,"""Which genes are associated with the most variants?""", Categorize  Relationship,Aggregate,4,2,2
+2,Genome,Interpretative,GPT-3.5,"""Identify Hotspots (range of positions where there are a higher number of variants).""", Find Clusters,Relationship+Pattern+Find Extreme,3,1,1
+2,Genome,Direct,Bing GPT-4,"""What's the number of unique chromosomes?""", Aggregate+Determine Distribution,Determine Distribution,4,4,4
+2,Genome,Direct,Bing GPT-4,"""What is the overall amount of Variants across different chromosomes?""", Aggregate+Determine Distribution,Determine Distribution,4,4,4
+2,Genome,Direct,Bing GPT-4,"""Are there positional patterns in a chromosome?""", Pattern,Pattern,5,5,5
+2,Genome,Direct,Bing GPT-4,"""Show the variants near a specific position""", Find Cluster,Determine Distribution,2,1,1
+2,Genome,Direct,Bing GPT-4,"""What are the highest and least occurent values for ALT?""", Aggregate+Determine Distribution,Determine Distribution,4,4,4
+2,Genome,Interpretative,Bing GPT-4,"""What are the individual REF and ALT alleles of each chromosome for each genotype?""", Compute Attribute  Determine Distribution,Compute Attribute+Sort,4,4,3
+2,Genome,Interpretative,Bing GPT-4,"""What are all the variants that occur in a PSN1 gene and in which copy do they appear?""", Relationship  Determine Distribution,Compute Attribute+Find Clusters,4,1,1
+2,Genome,Interpretative,Bing GPT-4,"""What is the distribution of variants along the genome in a sample?""", Compute Attribute+Determine Distribution,Determine Distribution,5,4,4
+2,Genome,Interpretative,Bing GPT-4,"""Which are the genotypes that tend to be associated with a specific ALT allele?""", Relationship,Compute Attribute+Relationship,5,4,4
+2,Genome,Interpretative,Bing GPT-4,"""Which genes are associated with the most variants?""", Categorize  Relationship,Aggregate+Sort,3,2,2
+2,Genome,Interpretative,Bing GPT-4,"""Identify Hotspots (range of positions where there are a higher number of variants).""", Find Clusters,Aggregate+Find Clusters,4,4,4
+2,Genome,Direct,Mixtral 8x7B,"""What's the number of unique chromosomes?""", Aggregate+Determine Distribution,Sort+Determine Distribution,3,3,2
+2,Genome,Direct,Mixtral 8x7B,"""What is the overall amount of Variants across different chromosomes?""", Aggregate+Determine Distribution,Aggregate+Determine Distribution,5,4,5
+2,Genome,Direct,Mixtral 8x7B,"""Are there positional patterns in a chromosome?""", Pattern,Pattern+Transform+Determine Distribution,1,2,2
+2,Genome,Direct,Mixtral 8x7B,"""Show the variants near a specific position""", Find Cluster,Sort+Find Extreme+Visualization ,1,1,1
+2,Genome,Direct,Mixtral 8x7B,"""What are the highest and least occurent values for ALT?""", Aggregate+Determine Distribution,Aggregate+Find Extreme+Sort,2,2,2
+2,Genome,Interpretative,Mixtral 8x7B,"""What are the individual REF and ALT alleles of each chromosome for each genotype?""", Compute Attribute  Determine Distribution,Grouping+Split +Join ,1,1,1
+2,Genome,Interpretative,Mixtral 8x7B,"""What are all the variants that occur in a PSN1 gene and in which copy do they appear?""", Relationship  Determine Distribution,Sort+Transform+New Column ,1,1,1
+2,Genome,Interpretative,Mixtral 8x7B,"""What is the distribution of variants along the genome in a sample?""", Compute Attribute+Determine Distribution,Aggregate+Compute Attribute,3,3,2
+2,Genome,Interpretative,Mixtral 8x7B,"""Which are the genotypes that tend to be associated with a specific ALT allele?""", Relationship,Grouping+Aggregate,1,1,1
+2,Genome,Interpretative,Mixtral 8x7B,"""Which genes are associated with the most variants?""", Categorize  Relationship,Grouping+Aggregate+Sort+Top N Values ,2,1,1
+2,Genome,Interpretative,Mixtral 8x7B,"""Identify Hotspots (range of positions where there are a higher number of variants).""", Find Clusters,Transform+Aggregate+Determine Distribution+Sort,2,1,1
+2,Genome,Direct,GPT-4,"""What's the number of unique chromosomes?""", Aggregate+Determine Distribution,Aggregate+Compute Attribute,5,5,5
+2,Genome,Direct,GPT-4,"""What is the overall amount of Variants across different chromosomes?""", Aggregate  Determine Distribution,Grouping+Aggregate,3,2,2
+2,Genome,Direct,GPT-4,"""Are there positional patterns in a chromosome?""", Pattern,Pattern+Transform,4,2,4
+2,Genome,Direct,GPT-4,"""Show the variants near a specific position""", Find Cluster,Find Clusters+Transform,5,5,3
+2,Genome,Direct,GPT-4,"""What are the highest and least occurent values for ALT?""", Aggregate+Determine Distribution,Aggregate+Find Extreme,3,3,2
+2,Genome,Interpretative,GPT-4,"""What are the individual REF and ALT alleles of each chromosome for each genotype?""", Compute Attribute  Determine Distribution,Grouping+Aggregate,2,2,2
+2,Genome,Interpretative,GPT-4,"""What are all the variants that occur in a PSN1 gene and in which copy do they appear?""", Relationship  Determine Distribution,Grouping+Aggregate+Find Clusters,3,1,1
+2,Genome,Interpretative,GPT-4,"""What is the distribution of variants along the genome in a sample?""", Compute Attribute+Determine Distribution,Transform+Determine Distribution,4,3,3
+2,Genome,Interpretative,GPT-4,"""Which are the genotypes that tend to be associated with a specific ALT allele?""", Relationship,Aggregate+Grouping+Relationship,5,3,4
+2,Genome,Interpretative,GPT-4,"""Which genes are associated with the most variants?""", Categorize  Relationship,Aggregate+Find Extreme,2,1,1
+2,Genome,Interpretative,GPT-4,"""Identify Hotspots (range of positions where there are a higher number of variants).""", Find Clusters,Aggregate+Transform+Pattern,2,1,1
+2,Genome,Direct,Gemini 1.0,"""What's the number of unique chromosomes?""", Aggregate+Determine Distribution,Find Extreme,2,2,1
+2,Genome,Direct,Gemini 1.0,"""What is the overall amount of Variants across different chromosomes?""", Aggregate  Determine Distribution,Categorize+Aggregate,4,2,2
+2,Genome,Direct,Gemini 1.0,"""Are there positional patterns in a chromosome?""", Pattern,Pattern,5,4,5
+2,Genome,Direct,Gemini 1.0,"""Show the variants near a specific position""", Find Cluster,Find Anomalies+Compute Attribute+Find Clusters,4,3,3
+2,Genome,Direct,Gemini 1.0,"""What are the highest and least occurent values for ALT?""", Aggregate+Determine Distribution,Aggregate+Find Extreme,3,3,2
+2,Genome,Interpretative,Gemini 1.0,"""What are the individual REF and ALT alleles of each chromosome for each genotype?""", Compute Attribute  Determine Distribution,Compute Attribute+Find Clusters,3,1,1
+2,Genome,Interpretative,Gemini 1.0,"""What are all the variants that occur in a PSN1 gene and in which copy do they appear?""", Relationship  Determine Distribution,Find Anomalies+Compute Attribute,3,2,1
+2,Genome,Interpretative,Gemini 1.0,"""What is the distribution of variants along the genome in a sample?""", Compute Attribute+Determine Distribution,Identify +Compute Attribute+Determine Distribution,3,2,3
+2,Genome,Interpretative,Gemini 1.0,"""Which are the genotypes that tend to be associated with a specific ALT allele?""", Relationship,Find Anomalies+Pattern,3,4,3
+2,Genome,Interpretative,Gemini 1.0,"""Which genes are associated with the most variants?""", Categorize  Relationship,Find Extreme+Aggregate+Find Clusters,1,1,1
+2,Genome,Interpretative,Gemini 1.0,"""Identify Hotspots (range of positions where there are a higher number of variants).""", Find Clusters,Compute Attribute+Find Anomalies+Find Extreme+Find Clusters,2,2,2
+2,Spatial,Direct,GPT-3.5,"""Which cities are the furthest west and east cities?""", Find Extreme,Sort+Find Extreme,5,5,5
+2,Spatial,Direct,GPT-3.5,"""What is the difference between the population of the most populated and less populated city of a specific country?""", Compare,Grouping+Sort+Find Extreme,5,3,3
+2,Spatial,Direct,GPT-3.5,"""What is the most populated city of a country?""", Find Extreme ,Grouping+Filter+Find Extreme,5,4,4
+2,Spatial,Direct,GPT-3.5,"""How many cities from each country are present?""", Aggregate  Determine Distribution,Grouping+Aggregate,5,4,2
+2,Spatial,Direct,GPT-3.5,"""What are the groups of major populated countries, per region?""", Find Clusters,Grouping+Sort+Find Clusters,4,4,4
+2,Spatial,Interpretative,GPT-3.5,"""What is the average population of a city in a country?""", Aggregate ,Grouping+Aggregate,5,5,4
+2,Spatial,Interpretative,GPT-3.5,"""Indicate the country with the city with the biggest area per region""", Compute Attribute+Find Extreme,Grouping+Sort+Find Extreme+Grouping,5,3,4
+2,Spatial,Interpretative,GPT-3.5,"""Can a connection be set between a city latitude and longitude and the cities population size?""", Relationship,Relationship+Visualization+Comparison+Grouping,2,1,3
+2,Spatial,Interpretative,GPT-3.5,"""Which cities, within the same country, have the highest population difference?""", Find Extreme ,Sort+Find Extreme,4,4,5
+2,Spatial,Interpretative,GPT-3.5,"""What countries have the highest average population per city?""", Aggregate+Sort/Rank ,Grouping+Aggregate+Sort+Find Extreme,4,4,4
+2,Spatial,Interpretative,GPT-3.5,"""What is the city with the highest surface area ?""", Compute Attribute ,Sort+Find Extreme,4,2,3
+2,Spatial,Interpretative,GPT-3.5,"""Analyze differences between the biggest population of cities from the same region""", Categorize  Compare,Grouping+Sort+Find Extreme+Comparison,3,3,4
+2,Spatial,Interpretative,GPT-3.5,"""What is the largest city per region?""", Categorize  Find Extreme,Grouping+Sort+Find Extreme,5,3,3
+2,Spatial,Interpretative,GPT-3.5,"""Identify cities with populations that deviate from the average population of cities in their respective countries.""", Find Anomalies ,Grouping+Aggregate+Find Anomalies,4,4,4
+2,Spatial,Direct,Bing GPT-4,"""Which cities are the furthest west and east cities?""", Find Extreme,Find Extreme+Find Extreme,3,3,4
+2,Spatial,Direct,Bing GPT-4,"""What is the difference between the population of the most populated and less populated city of a specific country?""", Compare,Find Extreme+Find Extreme+Compute Attribute,2,2,1
+2,Spatial,Direct,Bing GPT-4,"""What is the most populated city of a country?""", Find Extreme ,Find Extreme,5,5,5
+2,Spatial,Direct,Bing GPT-4,"""How many cities from each country are present?""", Aggregate  Determine Distribution,Aggregate,4,4,2
+2,Spatial,Direct,Bing GPT-4,"""What are the groups of major populated countries, per region?""", Find Clusters,Grouping+Find Extreme,4,4,3
+2,Spatial,Interpretative,Bing GPT-4,"""What is the average population of a city in a country?""", Aggregate ,Aggregate,5,5,5
+2,Spatial,Interpretative,Bing GPT-4,"""Indicate the country with the city with the biggest area per region""", Compute Attribute+Find Extreme,Grouping+Find Extreme+Compute Attribute,5,5,4
+2,Spatial,Interpretative,Bing GPT-4,"""Can a connection be set between a city latitude and longitude and the cities population size?""", Relationship,Relationship+Compute Attribute+Pattern,5,5,3
+2,Spatial,Interpretative,Bing GPT-4,"""Which cities, within the same country, have the highest population difference?""", Find Extreme ,Find Extreme+Comparison+Compute Attribute,5,5,4
+2,Spatial,Interpretative,Bing GPT-4,"""What countries have the highest average population per city?""", Aggregate+Sort/Rank ,Aggregate+Compute Attribute+Find Extreme,5,4,4
+2,Spatial,Interpretative,Bing GPT-4,"""What is the city with the highest surface area ?""", Compute Attribute ,Find Extremes,4,4,4
+2,Spatial,Interpretative,Bing GPT-4,"""Analyze differences between the biggest population of cities from the same region""", Categorize  Compare,Grouping+Find Extreme+Compare+Compute Attribute,5,3,2
+2,Spatial,Interpretative,Bing GPT-4,"""What is the largest city per region?""", Categorize  Find Extreme,Grouping+Find Extreme,5,3,4
+2,Spatial,Interpretative,Bing GPT-4,"""Identify cities with populations that deviate from the average population of cities in their respective countries.""", Find Anomalies ,Grouping+Aggregate+Compute Attribute+Find Anomalies,4,4,3
+2,Spatial,Direct,Mixtral 8x7B,"""Which cities are the furthest west and east cities?""", Find Extreme,Find Extremes,4,4,5
+2,Spatial,Direct,Mixtral 8x7B,"""What is the difference between the population of the most populated and less populated city of a specific country?""", Compare,Filter+Find Extreme+Compute Attribute,2,3,3
+2,Spatial,Direct,Mixtral 8x7B,"""What is the most populated city of a country?""", Find Extreme ,Filter+Maximum ,3,3,5
+2,Spatial,Direct,Mixtral 8x7B,"""How many cities from each country are present?""", Aggregate  Determine Distribution,Grouping+Aggregate,4,4,2
+2,Spatial,Direct,Mixtral 8x7B,"""What are the groups of major populated countries, per region?""", Find Clusters,Merge +Filter +Aggregate+Grouping,1,1,1
+2,Spatial,Interpretative,Mixtral 8x7B,"""What is the average population of a city in a country?""", Aggregate ,Aggregate+Determine Distribution,5,4,4
+2,Spatial,Interpretative,Mixtral 8x7B,"""Indicate the country with the city with the biggest area per region""", Compute Attribute+Find Extreme,Identify+Comparison+Determine Distribution,3,2,2
+2,Spatial,Interpretative,Mixtral 8x7B,"""Can a connection be set between a city latitude and longitude and the cities population size?""", Relationship,Identify+Correlation & Regression Analysis+Geospatial Data Visualization,1,1,1
+2,Spatial,Interpretative,Mixtral 8x7B,"""Which cities, within the same country, have the highest population difference?""", Find Extreme ,Comparison+Difference Computation+Maximum Value Location,2,2,2
+2,Spatial,Interpretative,Mixtral 8x7B,"""What countries have the highest average population per city?""", Aggregate+Sort/Rank ,Filter+Retrieval+Average Calculation+Ranking,3,2,2
+2,Spatial,Interpretative,Mixtral 8x7B,"""What is the city with the highest surface area ?""", Compute Attribute ,City Area Collection+Area Maximization,1,1,1
+2,Spatial,Interpretative,Mixtral 8x7B,"""Analyze differences between the biggest population of cities from the same region""", Categorize  Compare,Population Size Acquisition+Pairwise Difference Computation+Summary Stats Generation,1,1,1
+2,Spatial,Interpretative,Mixtral 8x7B,"""What is the largest city per region?""", Categorize  Find Extreme,Region Filtering+Largest City Selection+Result Presentation,1,1,1
+2,Spatial,Interpretative,Mixtral 8x7B,"""Identify cities with populations that deviate from the average population of cities in their respective countries.""", Find Anomalies ,Per-region average computation+Deviance Measurements+Significant Deviation Marking,2,1,1
+2,Spatial,Direct,GPT-4,"""Which cities are the furthest west and east cities?""", Find Extreme,Find Extreme,5,5,5
+2,Spatial,Direct,GPT-4,"""What is the difference between the population of the most populated and less populated city of a specific country?""", Compare,Compute Attribute+Find Extreme,3,3,3
+2,Spatial,Direct,GPT-4,"""What is the most populated city of a country?""", Find Extreme ,Find Extreme,4,5,5
+2,Spatial,Direct,GPT-4,"""How many cities from each country are present?""", Aggregate  Determine Distribution,Aggregate,3,3,2
+2,Spatial,Direct,GPT-4,"""What are the groups of major populated countries, per region?""", Find Clusters,Aggregate,1,2,1
+2,Spatial,Interpretative,GPT-4,"""What is the average population of a city in a country?""", Aggregate ,Aggregate,5,5,5
+2,Spatial,Interpretative,GPT-4,"""Indicate the country with the city with the biggest area per region""", Compute Attribute+Find Extreme,Find Extreme,5,5,4
+2,Spatial,Interpretative,GPT-4,"""Can a connection be set between a city latitude and longitude and the cities population size?""", Relationship,Relationship,5,5,5
+2,Spatial,Interpretative,GPT-4,"""Which cities, within the same country, have the highest population difference?""", Find Extreme ,Aggregate+Find Extreme,5,4,4
+2,Spatial,Interpretative,GPT-4,"""What countries have the highest average population per city?""", Aggregate+Sort/Rank ,Aggregate+Find Extreme,5,5,4
+2,Spatial,Interpretative,GPT-4,"""What is the city with the highest surface area ?""", Compute Attribute ,Find Extreme,5,3,3
+2,Spatial,Interpretative,GPT-4,"""Analyze differences between the biggest population of cities from the same region""", Categorize  Compare,Sort+Compute Attribute,1,3,1
+2,Spatial,Interpretative,GPT-4,"""What is the largest city per region?""", Categorize  Find Extreme,Find Extreme,4,4,3
+2,Spatial,Interpretative,GPT-4,"""Identify cities with populations that deviate from the average population of cities in their respective countries.""", Find Anomalies ,Aggregate+Find Anomalies,4,3,4
+2,Spatial,Direct,Gemini 1.0,"""Which cities are the furthest west and east cities?""", Find Extreme,Compute Attribute+Find Extreme,5,4,4
+2,Spatial,Direct,Gemini 1.0,"""What is the difference between the population of the most populated and less populated city of a specific country?""", Compare,Compute Attribute+Filter +Find Extreme,2,2,2
+2,Spatial,Direct,Gemini 1.0,"""What is the most populated city of a country?""", Find Extreme ,Filter+Find Extreme+Sort,4,3,4
+2,Spatial,Direct,Gemini 1.0,"""How many cities from each country are present?""", Aggregate  Determine Distribution,Relationship+Aggregate,4,4,3
+2,Spatial,Direct,Gemini 1.0,"""What are the groups of major populated countries, per region?""", Find Clusters,Define +Categorize+Find Clusters+Filter,3,2,3
+2,Spatial,Interpretative,Gemini 1.0,"""What is the average population of a city in a country?""", Aggregate ,Aggregate+Relatonship,3,2,2
+2,Spatial,Interpretative,Gemini 1.0,"""Indicate the country with the city with the biggest area per region""", Compute Attribute+Find Extreme,Compute Attribute+Find Extreme,4,4,5
+2,Spatial,Interpretative,Gemini 1.0,"""Can a connection be set between a city latitude and longitude and the cities population size?""", Relationship,Categorize+Aggregate,1,1,1
+2,Spatial,Interpretative,Gemini 1.0,"""Which cities, within the same country, have the highest population difference?""", Find Extreme ,Difference+Compute Attribute+Group+Find Extreme,3,3,3
+2,Spatial,Interpretative,Gemini 1.0,"""What countries have the highest average population per city?""", Aggregate+Sort/Rank ,Grouping+Aggregate+Find Extreme,2,1,2
+2,Spatial,Interpretative,Gemini 1.0,"""What is the city with the highest surface area ?""", Compute Attribute+Find Extremes,Identify+Find Extreme,2,2,2
+2,Spatial,Interpretative,Gemini 1.0,"""Analyze differences between the biggest population of cities from the same region""", Categorize  Compare,Grouping+Compute Attribute+Compare,3,3,3
+2,Spatial,Interpretative,Gemini 1.0,"""What is the largest city per region?""", Categorize  Find Extreme,Grouping+Find Extreme,4,4,3
+2,Spatial,Interpretative,Gemini 1.0,"""Identify cities with populations that deviate from the average population of cities in their respective countries.""", Find Anomalies ,Grouping+Compute Attribute+Find Extreme,4,3,2
+2,SocioEco,Direct,GPT-3.5,"""Which country has the best economy per capita?""", Compare,Compute Attribute+Sort,2,2,2
+2,SocioEco,Direct,GPT-3.5,"""Detect countries with unusually high mortality rates given their health expenditure""", Find Anomalies,Find Anomalies+Relationship,4,3,4
+2,SocioEco,Direct,GPT-3.5,"""What is the percentage of the under 65 population in each country?""", Agreggate  Compare,Compute Attribute+Aggregate,1,2,1
+2,SocioEco,Direct,GPT-3.5,"""What was the economic growth of Europe, in the last decade?""", Pattern,Compute Attribute+Pattern,4,4,4
+2,SocioEco,Direct,GPT-3.5,"""How does the GDP in country A differs from the country B?""", Compare,Compare,5,5,5
+2,SocioEco,Interpretative,GPT-3.5,"""Are region's population and birth rate imbalanced when matched with other regions?""", Compare,Relationship+Derive,3,2,2
+2,SocioEco,Interpretative,GPT-3.5,"""What are the countries that show a higher mobile phone usage than internet usage, over the last decade ?""", Compare  Sort,Pattern,4,3,2
+2,SocioEco,Interpretative,GPT-3.5,"""What region represents the best correlation between tourist destination and produced revenue?""", Compute Attribute  Relationship,Relationship,3,2,3
+2,SocioEco,Interpretative,GPT-3.5,"""How is the composition of population in european urban areas regarding children, adults, and elderly?""", Aggregate+Determine Distribution,Grouping+Determine Distribution,2,2,2
+2,SocioEco,Interpretative,GPT-3.5,"""What is the internet usage trend in the world over the years?""", Aggregate+Pattern,Pattern,5,5,4
+2,SocioEco,Interpretative,GPT-3.5,"""How does the population differ across age groups in these countries?""", Compare,Derive+Compare,5,4,4
+2,SocioEco,Interpretative,GPT-3.5,"""What are the interaction of birth rates and GDP between countries?""", Relationship,Relationship+Comparison,5,4,5
+2,SocioEco,Interpretative,GPT-3.5,"""How does life expectancy changes along the different regions and how does it relate?""", Aggregate+Relationship,Pattern+Relationship,3,4,3
+2,SocioEco,Direct,Bing GPT-4,"""Which country has the best economy per capita?""", Compare,Find Extreme+Sort+Rank,4,4,5
+2,SocioEco,Direct,Bing GPT-4,"""Detect countries with unusually high mortality rates given their health expenditure""", Find Anomalies,Find Anomalies+Compute Attribute+Find Clusters,3,3,3
+2,SocioEco,Direct,Bing GPT-4,"""What is the percentage of the under 65 population in each country?""", Agreggate  Compare,Compute Attribute+Relationship,4,4,3
+2,SocioEco,Direct,Bing GPT-4,"""What was the economic growth of Europe, in the last decade?""", Pattern,Find Extreme+Compute Attribute,3,2,2
+2,SocioEco,Direct,Bing GPT-4,"""How does the GDP in country A differs from the country B?""", Compare,Compare,5,5,5
+2,SocioEco,Interpretative,Bing GPT-4,"""Are region's population and birth rate imbalanced when matched with other regions?""", Compare,Relattionship+Find Anomalies+Compute Attribute+Comparison,2,2,3
+2,SocioEco,Interpretative,Bing GPT-4,"""What are the countries that show a higher mobile phone usage than internet usage, over the last decade ?""", Compare  Sort,Find anomalies+Comparison+Compute attribute,2,3,3
+2,SocioEco,Interpretative,Bing GPT-4,"""What region represents the best correlation between tourist destination and produced revenue?""", Compute Attribute  Relationship,Relationship+Compute Attribute+Rank,4,4,4
+2,SocioEco,Interpretative,Bing GPT-4,"""How is the composition of population in european urban areas regarding children, adults, and elderly?""", Aggregate+Determine Distribution,Pattern+Grouping+Compute Attribute+Determine Distribution,2,2,2
+2,SocioEco,Interpretative,Bing GPT-4,"""What is the internet usage trend in the world over the years?""", Aggregate+Pattern,Pattern+Compute Attribute+Sort,3,3,3
+2,SocioEco,Interpretative,Bing GPT-4,"""How does the population differ across age groups in these countries?""", Compare,Pattern+Comparison+Determine Distribution,2,2,2
+2,SocioEco,Interpretative,Bing GPT-4,"""What are the interaction of birth rates and GDP between countries?""", Relationship,Relationship+Compare,4,3,3
+2,SocioEco,Interpretative,Bing GPT-4,"""How does life expectancy changes along the different regions and how does it relate?""", Aggregate+Relationship,Pattern+Comparison+Relationship,4,3,3
+2,SocioEco,Direct,GPT-4,"""Which country has the best economy per capita?""", Compare,Compute Attribute+Find Extreme,2,3,3
+2,SocioEco,Direct,GPT-4,"""Detect countries with unusually high mortality rates given their health expenditure""", Find Anomalies,Find Anomalies+Relationship,4,4,4
+2,SocioEco,Direct,GPT-4,"""What is the percentage of the under 65 population in each country?""", Agreggate  Compare,Visualization +Pattern+Compute Attribute+Aggregate,2,1,1
+2,SocioEco,Direct,GPT-4,"""What was the economic growth of Europe, in the last decade?""", Pattern,Compute Attribute+Aggregate+Pattern+Sort,3,3,3
+2,SocioEco,Direct,GPT-4,"""How does the GDP in country A differs from the country B?""", Compare,Comparison,4,4,5
+2,SocioEco,Interpretative,GPT-4,"""Are region's population and birth rate imbalanced when matched with other regions?""", Compare,Relationship+Compute Attribute+Categorize+Sort+Aggregate,2,1,1
+2,SocioEco,Interpretative,GPT-4,"""What are the countries that show a higher mobile phone usage than internet usage, over the last decade ?""", Compare  Sort,Relationship,4,4,4
+2,SocioEco,Interpretative,GPT-4,"""What region represents the best correlation between tourist destination and produced revenue?""", Compute Attribute  Relationship,Visualization+Relationship+Compute Attribute,3,4,4
+2,SocioEco,Interpretative,GPT-4,"""How is the composition of population in european urban areas regarding children, adults, and elderly?""", Aggregate+Determine Distribution,Find Clusters+Aggregate+Compute Attribute,2,2,2
+2,SocioEco,Interpretative,GPT-4,"""What is the internet usage trend in the world over the years?""", Aggregate+Pattern,Pattern+Grouping,3,3,3
+2,SocioEco,Interpretative,GPT-4,"""How does the population differ across age groups in these countries?""", Compare,Visualization+Aggregate+Compute Attribute,1,1,1
+2,SocioEco,Interpretative,GPT-4,"""What are the interaction of birth rates and GDP between countries?""", Relationship,Relationship+Compute Attribute,4,4,5
+2,SocioEco,Interpretative,GPT-4,"""How does life expectancy changes along the different regions and how does it relate?""", Aggregate+Relationship,Relationship+Aggregate+Compute Attribute,5,3,5
+2,SocioEco,Direct,Gemini 1.0,"""Which country has the best economy per capita?""", Compare,Compute Attribute+Find Extreme,3,3,3
+2,SocioEco,Direct,Gemini 1.0,"""Detect countries with unusually high mortality rates given their health expenditure""", Find Anomalies,Find Anomalies+Compare+Determine Distribution,3,3,2
+2,SocioEco,Direct,Gemini 1.0,"""What is the percentage of the under 65 population in each country?""", Agreggate  Compare,Compute Attribute+Find Extreme,1,1,1
+2,SocioEco,Direct,Gemini 1.0,"""What was the economic growth of Europe, in the last decade?""", Pattern,Find Extreme+Determine Distribution+Patern,3,2,2
+2,SocioEco,Direct,Gemini 1.0,"""How does the GDP in country A differs from the country B?""", Compare,Compare,5,5,5
+2,SocioEco,Interpretative,Gemini 1.0,"""Are region's population and birth rate imbalanced when matched with other regions?""", Compare,Compare+Find Extreme+Derive+Determine Distribution,4,3,2
+2,SocioEco,Interpretative,Gemini 1.0,"""What are the countries that show a higher mobile phone usage than internet usage, over the last decade ?""", Compare  Sort,Compute Difference+Filter+Identify,2,2,1
+2,SocioEco,Interpretative,Gemini 1.0,"""What region represents the best correlation between tourist destination and produced revenue?""", Compute Attribute  Relationship,Ratio+Aggregate+Compare+Pattern,1,1,1
+2,SocioEco,Interpretative,Gemini 1.0,"""How is the composition of population in european urban areas regarding children, adults, and elderly?""", Aggregate+Determine Distribution,Aggregate,2,1,2
+2,SocioEco,Interpretative,Gemini 1.0,"""What is the internet usage trend in the world over the years?""", Aggregate+Pattern,Patter+Find Extreme+Ratio+Compare,3,3,2
+2,SocioEco,Interpretative,Gemini 1.0,"""How does the population differ across age groups in these countries?""", Compare,Pattern+Compare,2,2,4
+2,SocioEco,Interpretative,Gemini 1.0,"""What are the interaction of birth rates and GDP between countries?""", Relationship,Pattern,4,4,3
+2,SocioEco,Interpretative,Gemini 1.0,"""How does life expectancy changes along the different regions and how does it relate?""", Aggregate+Relationship,Pattern,3,3,3
+2,SocioEco,Direct,Mixtral 8x7B,"""Which country has the best economy per capita?""", Compare,Determine Distribution,3,1,1
+2,SocioEco,Direct,Mixtral 8x7B,"""Detect countries with unusually high mortality rates given their health expenditure""", Find Anomalies,Find Anomalies+Relationship,3,3,3
+2,SocioEco,Direct,Mixtral 8x7B,"""What is the percentage of the under 65 population in each country?""", Agreggate  Compare,Filter+Summarize+Multiply,3,2,1
+2,SocioEco,Direct,Mixtral 8x7B,"""What was the economic growth of Europe, in the last decade?""", Pattern,Determine Distribution,2,2,2
+2,SocioEco,Direct,Mixtral 8x7B,"""How does the GDP in country A differs from the country B?""", Compare,Compare,5,4,5
+2,SocioEco,Interpretative,Mixtral 8x7B,"""Are region's population and birth rate imbalanced when matched with other regions?""", Compare,Find Clusters+Determine Distribution+Compare,3,2,2
+2,SocioEco,Interpretative,Mixtral 8x7B,"""What are the countries that show a higher mobile phone usage than internet usage, over the last decade ?""", Compare  Sort,Filter+Compare,3,3,4
+2,SocioEco,Interpretative,Mixtral 8x7B,"""What region represents the best correlation between tourist destination and produced revenue?""", Compute Attribute  Relationship,Filter+Relationship,3,3,3
+2,SocioEco,Interpretative,Mixtral 8x7B,"""How is the composition of population in european urban areas regarding children, adults, and elderly?""", Aggregate+Determine Distribution,Classify+Organize+Determine Distribution,3,2,3
+2,SocioEco,Interpretative,Mixtral 8x7B,"""What is the internet usage trend in the world over the years?""", Aggregate+Pattern,Determine Distribution+Compare+Find Patterns,3,3,2
+2,SocioEco,Interpretative,Mixtral 8x7B,"""How does the population differ across age groups in these countries?""", Compare,Organize+Determine Distribution+Compare,3,4,3
+2,SocioEco,Interpretative,Mixtral 8x7B,"""What are the interaction of birth rates and GDP between countries?""", Relationship,Relationship,4,5,5
+2,SocioEco,Interpretative,Mixtral 8x7B,"""How does life expectancy changes along the different regions and how does it relate?""", Aggregate+Relationship,Organize+Find Relationship,4,3,3
+2,Temporal,Direct,GPT-3.5,"""What is the maximum ""High"" achieved in 2021 ?""",Find Extreme ,Find Extreme,5,5,5
+2,Temporal,Direct,GPT-3.5,"""What is the total number of companies ?""",Aggregate  ,Grouping,2,2,1
+2,Temporal,Direct,GPT-3.5,"""Observe the average values of volume of the market, per year""",Aggregate +Compare,Compute Attribute+Grouping+Aggregate,3,1,2
+2,Temporal,Direct,GPT-3.5,"""Which values of market closure of company A are considered peculiar ?""",Find Anomalies ,Find Anomalies,5,4,4
+2,Temporal,Direct,GPT-3.5,"""How does the ""Open"" evolve for company B during the years ?""",Pattern,Pattern,5,4,5
+2,Temporal,Interpretative,GPT-3.5,"""What is the seasonality of average volume for the market ?""",Aggregate +Relationship,Sort+Aggregate+Pattern,5,5,5
+2,Temporal,Interpretative,GPT-3.5,"""What are the advancements between the biggest differences of High and Low for each month ?""",Compute Attribute +Compute Attribute Max )+Compare,Compute Attribute+Grouping+Find Extreme,4,4,3
+2,Temporal,Interpretative,GPT-3.5,"""How do the trades of company A evolved during the individual months of the last decade ?""",Relationship ,Sort+Grouping+Aggregate+Pattern,3,3,3
+2,Temporal,Interpretative,GPT-3.5,"""How do augments in the shares value compare year after year ?""",Compare ,Sort+Grouping+Aggregate+Pattern,3,2,2
+2,Temporal,Interpretative,GPT-3.5,"""Does company A and B have similar deliverable results in the year of 2021 ?""",Compare+Filter ,Grouping+Compare,5,4,4
+2,Temporal,Interpretative,GPT-3.5,"""What is the variation of share average volume per company ?""",Aggregate +Compare,Grouping+Aggregate+Compute Attribute,2,2,2
+2,Temporal,Direct,Bing GPT-4,"""What is the maximum ""High"" achieved in 2021 ?""",Find Extreme ,Find Extreme,5,5,5
+2,Temporal,Direct,Bing GPT-4,"""What is the total number of companies ?""",Aggregate  ,Aggregate,5,5,5
+2,Temporal,Direct,Bing GPT-4,"""Observe the average values of volume of the market, per year""",Aggregate +Compare,Aggregate+Pattern,4,3,3
+2,Temporal,Direct,Bing GPT-4,"""Which values of market closure of company A are considered peculiar ?""",Find Anomalies ,Find Anomalies,5,5,5
+2,Temporal,Direct,Bing GPT-4,"""How does the ""Open"" evolve for company B during the years ?""",Pattern,Pattern,5,5,5
+2,Temporal,Interpretative,Bing GPT-4,"""What is the seasonality of average volume for the market ?""",Average +Relationship,Aggregate+Pattern,5,5,4
+2,Temporal,Interpretative,Bing GPT-4,"""What are the advancements between the biggest differences of High and Low for each month ?""",Compute Attribute +Compute Attribute Max )+Compare,Compute Attribute+Aggregate+Pattern,3,3,2
+2,Temporal,Interpretative,Bing GPT-4,"""How do the trades of company A evolved during the individual months of the last decade ?""",Relationship ,Pattern+Comparison,3,3,3
+2,Temporal,Interpretative,Bing GPT-4,"""How do augments in the shares value compare year after year ?""",Compare ,Pattern+Comparison+Transform,3,3,3
+2,Temporal,Interpretative,Bing GPT-4,"""Does company A and B have similar deliverable results in the year of 2021 ?""",Compare+Filter ,Relationship+Comparison+Compute Attribute,5,5,3
+2,Temporal,Interpretative,Bing GPT-4,"""What is the variation of share average volume per company ?""",Aggregate +Compare,Find Extreme+Pattern+Determine Distribution+Compute Attribute,3,3,1
+2,Temporal,Direct,GPT-4,"""What is the maximum ""High"" achieved in 2021 ?""",Find Extreme ,Find Extreme,5,5,5
+2,Temporal,Direct,GPT-4,"""What is the total number of companies ?""",Aggregate  ,Aggregate,5,5,5
+2,Temporal,Direct,GPT-4,"""Observe the average values of volume of the market, per year""",Aggregate +Compare,Grouping+Aggregate,3,3,2
+2,Temporal,Direct,GPT-4,"""Which values of market closure of company A are considered peculiar ?""",Find Anomalies ,Find Anomalies,5,5,5
+2,Temporal,Direct,GPT-4,"""How does the ""Open"" evolve for company B during the years ?""",Pattern,Pattern,5,5,5
+2,Temporal,Interpretative,GPT-4,"""What is the seasonality of average volume for the market ?""",Aggregate +Relationship,Pattern+Grouping+Aggregate,5,5,4
+2,Temporal,Interpretative,GPT-4,"""What are the advancements between the biggest differences of High and Low for each month ?""",Compute Attribute +Compute Attribute Max )+Compare,Compute Attribute+Aggregate+Grouping+Compare,3,3,4
+2,Temporal,Interpretative,GPT-4,"""How do the trades of company A evolved during the individual months of the last decade ?""",Relationship ,Pattern+Grouping,4,4,3
+2,Temporal,Interpretative,GPT-4,"""How do augments in the shares value compare year after year ?""",Compare ,Compute Attribute+Grouping+Compare,5,4,4
+2,Temporal,Interpretative,GPT-4,"""Does company A and B have similar deliverable results in the year of 2021 ?""",Compare+Filter ,Compare+Grouping,4,4,5
+2,Temporal,Interpretative,GPT-4,"""What is the variation of share average volume per company ?""",Aggregate +Compare,Aggregate+Compute Attribute+Grouping,2,2,2
+2,Temporal,Direct,Gemini 1.0,"""What is the maximum ""High"" achieved in 2021 ?""",Find Extreme ,Find Extreme,5,4,5
+2,Temporal,Direct,Gemini 1.0,"""What is the total number of companies ?""",Aggregate  ,Aggregate,5,5,5
+2,Temporal,Direct,Gemini 1.0,"""Observe the average values of volume of the market, per year""",Aggregate +Compare,Grouping+Aggregate,3,3,2
+2,Temporal,Direct,Gemini 1.0,"""Which values of market closure of company A are considered peculiar ?""",Find Anomalies ,Find Anomalies+Determine Distribution,4,3,3
+2,Temporal,Direct,Gemini 1.0,"""How does the ""Open"" evolve for company B during the years ?""",Pattern,Grouping+Pattern+Compare,4,4,4
+2,Temporal,Interpretative,Gemini 1.0,"""What is the seasonality of average volume for the market ?""",Average +Relationship,Grouping+Aggregate+Pattern+Compare,4,4,2
+2,Temporal,Interpretative,Gemini 1.0,"""What are the advancements between the biggest differences of High and Low for each month ?""",Compute Attribute +Compute Attribute Max )+Compare,Grouping+Find Extreme+ Compute Attribute,2,2,1
+2,Temporal,Interpretative,Gemini 1.0,"""How do the trades of company A evolved during the individual months of the last decade ?""",Relationship ,Grouping+Aggregate+Categorize+Pattern,3,3,3
+2,Temporal,Interpretative,Gemini 1.0,"""How do augments in the shares value compare year after year ?""",Compare ,Grouping+Find Extreme+Compare,4,3,3
+2,Temporal,Interpretative,Gemini 1.0,"""Does company A and B have similar deliverable results in the year of 2021 ?""",Compare+Filter ,Grouping+Compare,5,3,4
+2,Temporal,Interpretative,Gemini 1.0,"""What is the variation of share average volume per company ?""",Aggregate +Compare,Grouping+Aggregate+Compute Attribute,2,2,2
+2,Temporal,Direct,Mixtral 8x7B,"""What is the maximum ""High"" achieved in 2021 ?""",Find Extreme ,Filter+Identify ,2,1,1
+2,Temporal,Direct,Mixtral 8x7B,"""What is the total number of companies ?""",Aggregate  ,Group By+Count ,3,3,3
+2,Temporal,Direct,Mixtral 8x7B,"""Observe the average values of volume of the market, per year""",Aggregate +Compare,Aggregate+Determine Distribuition,4,3,3
+2,Temporal,Direct,Mixtral 8x7B,"""Which values of market closure of company A are considered peculiar ?""",Find Anomalies ,Identify Outliers ,2,2,1
+2,Temporal,Direct,Mixtral 8x7B,"""How does the ""Open"" evolve for company B during the years ?""",Pattern,Filter+Pattern,5,4,4
+2,Temporal,Interpretative,Mixtral 8x7B,"""What is the seasonality of average volume for the market ?""",Average +Relationship,Aggregate,2,2,2
+2,Temporal,Interpretative,Mixtral 8x7B,"""What are the advancements between the biggest differences of High and Low for each month ?""",Compute Attribute +Compute Attribute Max )+Compare,Grouping+Pattern,4,3,2
+2,Temporal,Interpretative,Mixtral 8x7B,"""How do the trades of company A evolved during the individual months of the last decade ?""",Relationship ,Filter+Parse Data+Pattern,3,3,3
+2,Temporal,Interpretative,Mixtral 8x7B,"""How do augments in the shares value compare year after year ?""",Compare ,Filter+Comparison,3,3,2
+2,Temporal,Interpretative,Mixtral 8x7B,"""Does company A and B have similar deliverable results in the year of 2021 ?""",Compare ,Filter +Filter +Organization +Computation +Determine Similarity ,1,1,1
+2,Temporal,Interpretative,Mixtral 8x7B,"""What is the variation of share average volume per company ?""",Aggregate +Compare,Average +Variation ,1,1,1
+1,Business,-,GPT-3.5,"""What is the average quantity of products sold per order?""",Grouping+Aggregate,Sort+Aggregate,-,-,4
+1,Business,-,GPT-3.5,"""Are there variations in the average discount rates across different product categories?""",Grouping+Compare,Aggregate,-,-,2
+1,Business,-,GPT-3.5,"""Can we identify the most profitable month based on order dates?""",Grouping+Determine Distribution+Sort,Aggregate,-,-,2
+1,Business,-,GPT-3.5,"""Are there any outliers in the sales data that might indicate exceptional performance or issues?""",Find Anomalies,Find Anomalies,-,-,5
+1,Business,-,GPT-3.5,"""How does the discount rate affect the profit margin for furniture products?""",Relationship,Relationship,-,-,5
+1,Business,-,GPT-3.5,"""How do profits vary between different regions?""",Grouping+Compare,Aggregate,-,-,2
+1,Business,-,GPT-3.5,"""How many products fall into each sub-category?""",Aggregate,Aggregate,-,-,5
+1,Business,-,GPT-3.5,"""How many unique customers are there in the dataset?""",Aggregate,Aggregate,-,-,5
+1,Business,-,GPT-3.5,"""How many sales have been done this year?""",Determine Distribution+Aggregate,Aggregate,-,-,1
+1,Business,-,GPT-3.5,"""How many sales have been done?""",Determine Distribution+Aggregate,Aggregate,-,-,2
+1,Business,-,GPT-3.5,"""What is the average sales value for each sub-category of office supplies?""",Aggregate,Aggregate,-,-,4
+1,Business,-,GPT-3.5,"""How have been the sales in the last year ?",Determine Distribution+Aggregate,Determine Distribution,-,-,2
+1,Genome,-,GPT-3.5,"""What are all the variants that occur in a PSN1 gene and in which copy are they?""",Filter+Relationship ,Relationship+Sort+Transform,-,-,2
+1,Genome,-,GPT-3.5,"""Which type of genotypes tend to be associated with a G allele?""",Filter+Relationship ,Relationship+Determine Distribution,-,-,2
+1,Genome,-,GPT-3.5,"""Which genes are associated with the most variants?""",Filter+Aggregate +Compute Attribute+Determine Distribution,Relationship+Rank,-,-,1
+1,Genome,-,GPT-3.5,"""What is the diversity of variants in the sample data?""",Determine Distribution for each ALT,Determine Distribution+Rank,-,-,5
+1,Genome,-,GPT-3.5,"""Which variants are considered rare, and do they show any specific patterns or associations with certain genes?""",Find Anomalies+Identify ,Find Anomalies+Determine Distribution,-,-,2
+1,Genome,-,GPT-3.5,"""Are there specific chromosomal regions that act as hotspots for mutations?""",Identify ,Find Extreme,-,-,1
+1,Genome,-,GPT-3.5,"""What is the overall amount of genotypes across different genes?""",Determine Distribution,Determine Distribution,-,-,5
+1,Spatial,-,GPT-3.5,"""What is the average population of cities in a country?""",Grouping +Aggregate ,Grouping+Aggregate,-,-,5
+1,Spatial,-,GPT-3.5,"""What is the largest city per region?""",Categorize+Grouping +Find Extreme,Grouping+Aggregate,-,-,2
+1,Spatial,-,GPT-3.5,"""What is the largest city per region ?"" (knowing that Regions are not defined and must be created)",Categorize+Grouping +Find Extreme,Grouping+Aggregate,-,-,2
+1,Spatial,-,GPT-3.5,"""Find the closest and furthest away pair of cities""",Compute Attribute +Aggregate,Relationship+Compute Attribute,-,-,1
+1,Spatial,-,GPT-3.5,"""Is there a connection between latitude and longitude of cities and their population?""",Relationship ,Relationship,-,-,5
+1,Spatial,-,GPT-3.5,"""Analyze differences between the population of cities from the same country"" ",Grouping +Compare,Grouping+Determine Distribution+Compare,-,-,2
+1,Spatial,-,GPT-3.5,"""Analyze differences between the biggest population of cities from the same region"". ",Categorizar +Grouping +Compare,Grouping+Determine Distribution+Compare,-,-,1
+1,Spatial,-,GPT-3.5,"""How many cities are represented from each country?""",Aggregate +Determine Distribution,Grouping+Aggregate+Determine Distribution,-,-,4
+1,Spatial,-,GPT-3.5,"""What's the total population of a country?""",Grouping +Aggregate ,Aggregate,-,-,5
+1,Spatial,-,GPT-3.5,"""What's the total population of a region?""",Categorize+Aggregate ,Grouping+Aggregate,-,-,4
+1,Spatial,-,GPT-3.5,"""What grew faster smartphone usage or internet usage?""",Aggregate +Aggregate +Compare ,Pattern+Determine Distribution,-,-,1
+1,Spatial,-,GPT-3.5,"""What's the region with the biggest birth rate, on average?""",Categorize+Grouping +Aggregate+Compare,Relationship+Determine Distribution+Sort,-,-,1
+1,Spatial,-,GPT-3.5,"""What countries are above the birth rate threshold ?""",Grouping +Aggregate+Compute Attribute ,Relationship+Compute Attribute,-,-,2
+1,Temporal,-,GPT-3.5,"""What is the overall trend of daily vaccinations in specific countries?""",Patterns+Sort ,Patterns+Determine Distribution+Sort,-,-,2
+1,Temporal,-,GPT-3.5,"""Which vaccines are most commonly used across different countries?""",Compare ,Relationship+Compare,-,-,3
+1,Temporal,-,GPT-3.5,"""Are there any noticeable differences in vaccination rates between countries with different vaccination strategies?""",Compare+Sort,Relationship+Compare,-,-,2
+1,Temporal,-,GPT-3.5,"""Which countries have vaccinated the highest percentage of their population with a specific vaccine?""",Aggregate+Sort,Pattern+Aggregate+Sort,-,-,4
+1,Temporal,-,GPT-3.5,"""Compare the vaccination progress between continents over time.""",Compare+Sort,Pattern+Sort+Compare,-,-,4
+1,Temporal,-,GPT-3.5,"""Is there any country where the number of fully vaccinated people is disproportionately low compared to the number of partially vaccinated individuals?""",Find Anomalies,Pattern+Find Anomalies,-,-,2
+1,Temporal,-,GPT-3.5,"""Can you identify any patterns in vaccination data that deviate significantly from the typical trends?""",Patterns+Find Anomalies,Pattern+Find Anomalies,-,-,5
+1,SocioEco,-,GPT-3.5,"""What is the internet usage trend in these countries over the years?""",Patterns +Aggregate,Pattern+Compare+Determine Distribution+Aggregate,-,-,2
+1,SocioEco,-,GPT-3.5,"""Which country has the highest GDP per capita?""",Compare+Rank,Compare+Rank,-,-,5
+1,SocioEco,-,GPT-3.5,"""What is the correlation between birth rates and GDP in these countries?""",Relationships,Pattern+Determine Distribution+Transform,-,-,1
+1,SocioEco,-,GPT-3.5,"""What is the distribution of population across different age groups in these countries?""",Determine Distribution+Aggregate,Determine Distribution+Transform,-,-,2
+1,SocioEco,-,GPT-3.5,"""Have there been any notable changes in CO2 emissions in these countries over the past decade?""",Patterns+Aggregate,Pattern+Determine Distribution+Aggregate,-,-,3
+1,SocioEco,-,GPT-3.5,"""Are there disparities in health expenditure between male and female populations in these nations?""",  Derive +Compare ,Pattern+Compare+Determine Distribution+Aggregate,-,-,3
+1,SocioEco,-,GPT-3.5,"""What is the percentage of the population under the age of 14 in each country?""",Aggregate,Aggregate,-,-,5
+1,SocioEco,-,GPT-3.5,"""Explore the composition of population demographics in urban areas. What percentage constitutes young adults, middle-aged individuals, and the elderly?""",Aggregate,Transform+Aggregate,-,-,4
+1,SocioEco,-,GPT-3.5,"""Detect countries with unusually high infant mortality rates given their health expenditure per capita."" ?",Find Anomalies,Pattern+Compare+Transform,-,-,1
+1,SocioEco,-,GPT-3.5,"""Find countries with the highest and lowest CO2 emissions per capita""?",Find extreme,Compare+Rank,-,-,2
+1,SocioEco,-,GPT-3.5,"""Can you identify groups of countries with similar age demographics, birth rates, and internet adoption rates?""",Find Clusters,Relationship+Aggregate,-,-,1

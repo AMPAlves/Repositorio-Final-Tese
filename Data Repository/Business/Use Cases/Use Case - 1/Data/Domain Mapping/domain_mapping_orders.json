@@ -1,0 +1,103 @@
+{
+	"mapping": [
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "orderID",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Order ID",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "productId",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Product ID",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "costumerId",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Costumer Id",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "rowId",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Row ID",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "order_date",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Order Date",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "quantity",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Quantity",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "ship_date",
+				"data_type": "date"
+			},
+			"domain_data": {
+				"data_attribute": "Ship Date",
+				"data_type": "date"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "ship_mode",
+				"data_type": "date"
+			},
+			"domain_data": {
+				"data_attribute": "Ship Mode",
+				"data_type": "date"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Orders",
+				"class_attribute": "segment",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Segment",
+				"data_type": "string"
+			}
+		}
+	]
+}

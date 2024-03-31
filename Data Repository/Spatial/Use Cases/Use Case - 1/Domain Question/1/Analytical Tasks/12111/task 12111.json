@@ -1,0 +1,17 @@
+{
+	"questionID": "1211",
+	"taskID": "12111",
+	"task_selection": [
+		{
+			"task": "Identify",
+			"subtask":[
+				{
+					"task": "Relationship"
+				}
+			],
+			"domain_specification": "Visualize the connection between a city latitude and longitude and the cities population size",
+			"analytical_specification": "Identify the Relationship between a city latitude and longitude and the cities population size",
+			"expected_output": "A dataset with the list of latitude, longitude and population size relationships along the sample"
+		}
+	]
+}

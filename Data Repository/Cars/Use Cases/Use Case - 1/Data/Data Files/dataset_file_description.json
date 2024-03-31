@@ -1,0 +1,76 @@
+{
+	"domainID": "12",
+	"dataset": [
+		{
+			"datasetID": "121",
+			"dataset_files": [
+				{
+					"dataset_file_name": "dataset",
+					"domain_description": "",
+					"fields": [
+						{
+							"field_name": "Brand",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Model",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "MPG",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Cylinders",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Displacement",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Horsepower",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Weight",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Acceleration",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Year",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Origin",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						}
+					]
+				}
+			]
+		}
+	]
+}

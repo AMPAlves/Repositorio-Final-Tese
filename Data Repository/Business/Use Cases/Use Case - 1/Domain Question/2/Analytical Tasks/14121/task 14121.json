@@ -1,0 +1,20 @@
+{
+	"questionID": "1412",
+	"taskID": "14121",
+	"task_selection": [
+		{
+			"task": "Derive",
+			"subtask":[
+				{
+					"task": "Aggregate",
+					"type": "mean",
+					"attribute": "Discount",
+					"groupby": "Category"
+				}
+			],
+			"domain_specification": "Visualize outliers in the sales data that might indicate exceptional performance or issues",
+			"analytical_specification": "What anomalies are found in sales data that may indicate exceptional performance or problems",
+			"expected_output": "A dataset with the list of sales along the sample"
+		}
+	]
+}

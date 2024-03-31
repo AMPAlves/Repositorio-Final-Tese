@@ -1,0 +1,48 @@
+{
+	"mapping": [
+		{
+			"class": {
+				"class_name": "Sales",
+				"class_attribute": "orderId",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Order Id",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Sales",
+				"class_attribute": "sales",
+				"data_type": "float"
+			},
+			"domain_data": {
+				"data_attribute": "Sales",
+				"data_type": "float"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Sales",
+				"class_attribute": "discount",
+				"data_type": "float"
+			},
+			"domain_data": {
+				"data_attribute": "Discount",
+				"data_type": "float"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Sales",
+				"class_attribute": "profit",
+				"data_type": "float"
+			},
+			"domain_data": {
+				"data_attribute": "Profit",
+				"data_type": "float"
+			}
+		}
+	]
+}

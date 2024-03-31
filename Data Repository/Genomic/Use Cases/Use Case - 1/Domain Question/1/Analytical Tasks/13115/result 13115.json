@@ -1,0 +1,94 @@
+{
+	"questionID": "1311",
+	"taskID": "13112",
+	"output": {
+		"target_type": "dataset",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name":{},
+				"attribute_type": {},
+				"values": []
+			},
+			{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "POS",
+									"attribute_type": "discrete",
+									"order": 0,
+									"values": []
+								},
+								{
+									"attribute_name": "CHROM",
+									"attribute_type": "nominal",
+									"order": 1,
+									"values": []
+								},
+								{
+									"attribute_name": "GENE",
+									"attribute_type": "nominal",
+									"order": 2,
+									"values": []
+								},
+								{
+									"attribute_name": "REF",
+									"attribute_type": "nominal",
+									"order": 3,
+									"values": []
+								},
+								{
+									"attribute_name": "ALT",
+									"attribute_type": "nominal",
+									"order": 4,
+									"values": []
+								},
+								{
+									"attribute_name": "GENOTYPE",
+									"attribute_type": "nominal",
+									"order": 5,
+									"values": []
+								},
+
+								{
+									"attribute_name": "Left Allele",
+									"attribute_type": "nominal",
+									"order": 6,
+									"values": []
+								},
+								{
+									"attribute_name": "Right Allele",
+									"attribute_type": "nominal",
+									"order": 7,
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"questionID": "1311",
+	"taskID": "13111",
+	"output": {
+		"target_type": "attribute",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name": "Right Allele Index",
+				"attribute_type": "integer",
+				"values": []
+				}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "POS",
+									"attribute_type": "discrete",
+									"order": 0,
+									"values": []
+								},
+								{
+									"attribute_name": "Chrom",
+									"attribute_type": "nominal",
+									"order": 1,
+									"values": []
+								},
+								{
+									"attribute_name": "Gene",
+									"attribute_type": "nominal",
+									"order": 2,
+									"values": []
+								},
+								{
+									"attribute_name": "REF",
+									"attribute_type": "nominal",
+									"order": 3,
+									"values": []
+								},
+								{
+									"attribute_name": "ALT",
+									"attribute_type": "nominal",
+									"order": 4,
+									"values": []
+								},
+								{
+									"attribute_name": "Genotype",
+									"attribute_type": "nominal",
+									"order": 5,
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

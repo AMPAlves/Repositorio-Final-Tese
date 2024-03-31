@@ -1,0 +1,13 @@
+{
+	"questionID": "1413",
+	"taskID": "14132",
+	"task_selection": [
+		{
+			"task": "Compare",
+			"subtask":[],
+			"domain_specification": "Compare the total profit of the different sub-categories.",
+			"analytical_specification": "What differences (when comparing) are found in the profits between sub-categories.",
+			"expected_output": "A dataset with the list of total profit values for each of the three different sub-categories"
+		}
+	]
+}

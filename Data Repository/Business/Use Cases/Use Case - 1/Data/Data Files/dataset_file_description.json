@@ -1,0 +1,142 @@
+{
+	"domainID": "12",
+	"dataset": [
+		{
+			"datasetID": "121",
+			"dataset_files": [
+				{
+					"dataset_file_name": "dataset",
+					"domain_description": "",
+					"fields": [
+						{
+							"field_name": "Costumer ID",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Costumer Name",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "City",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Country",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "State",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Region",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Postal Code",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Order ID",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Row ID",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Order Date",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "date"
+						},
+						{
+							"field_name": "Quantity",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Ship Date",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "date"
+						},
+						{
+							"field_name": "Ship Mode",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Segment",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Product ID",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Product Name",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Category",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Subcategory",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Sales",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Discount",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Profit",
+							"field_description": "",
+							"field_structure": "row",
+							"field_datatype": "integer"
+						}
+					]
+				}
+			]
+		}
+	]
+}

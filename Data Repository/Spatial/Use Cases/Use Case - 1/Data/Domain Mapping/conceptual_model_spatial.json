@@ -1,0 +1,38 @@
+{
+  "conceptual_model": {
+    "name_model": "Spatial Conceptual Model",
+    "classes": [
+      {
+        "class_name": "City",
+        "attributes": [
+          { "attribute_name": "name", "type": "string" },
+          { "attribute_name": "name_ascii", "type": "string" },
+          { "attribute_name": "latitude", "type": "float" },
+          { "attribute_name": "longitude", "type": "float" },
+          { "attribute_name": "capital", "type": "string" },
+          { "attribute_name": "population", "type": "int" },
+          { "attribute_name": "id", "type": "int" },
+          { "attribute_name": "density", "type": "int" }
+        ]
+      }
+        ],
+        "associations": [
+          {
+            "class_name": "Country",
+            "attributes": [
+              { "attribute_name": "country_name", "type": "string" },
+              { "attribute_name": "iso2", "type": "string" },
+              { "attribute_name": "iso3", "type": "string" }
+
+          ]
+          },
+          {
+            "class_name": "Region",
+            "attributes": [
+              { "attribute_name": "admin_name", "type": "string" }
+
+          ]
+          }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"questionID": "1411",
+	"taskID": "14111",
+	"task_selection": [
+		{
+			"task": "Identify",
+			"subtask":[
+				{
+					"task": "Relationship"
+				}
+			],
+			"domain_specification": "Visualize outliers in the sales data that might indicate exceptional performance or issues",
+			"analytical_specification": "What anomalies are found in sales data that may indicate exceptional performance or problems",
+			"expected_output": "A dataset with the list of sales along the sample"
+		}
+	]
+}

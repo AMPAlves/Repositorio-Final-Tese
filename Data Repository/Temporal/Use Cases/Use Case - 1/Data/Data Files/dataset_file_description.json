@@ -1,0 +1,91 @@
+{
+	"domainID": "11",
+	"dataset": [
+		{
+			"datasetID": "111",
+			"dataset_files": [
+				{
+					"dataset_file_name": "",
+					"domain_description": "",
+					"fields": [
+						{
+							"field_name": "Date",
+							"field_structure":"row",
+							"field_datatype": "datetime"
+						},
+						{
+							"field_name": "Symbol",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Series",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "Prev Close",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Open",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "High",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Low",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Last",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Close",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "VWAP",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Volume",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Turnover",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "Trades",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "Deliverable Volume",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "%Deliverable",
+							"field_structure":"row",
+							"field_datatype": "float"
+						}
+					]
+				}
+			]
+		}
+	]
+}

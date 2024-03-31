@@ -1,0 +1,57 @@
+{
+	"questionID": "1412",
+	"taskID": "14121",
+	"output": {
+		"target_type": "dataset",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			},
+			{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "category",
+									"order": 0,
+									"attribute_type": "discrete",
+									"values": []
+								},
+								{
+									"attribute_name": "discount",
+									"order": 1,
+									"attribute_type": "discrete",
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

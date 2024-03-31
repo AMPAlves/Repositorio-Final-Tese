@@ -1,0 +1,81 @@
+{
+	"mapping": [
+		{
+			"class": {
+				"class_name": "Costumers",
+				"class_attribute": "costumerId",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Costumer ID",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Costumers",
+				"class_attribute": "costumer_name",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Costumer Name",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Costumers",
+				"class_attribute": "city",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "City",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Costumers",
+				"class_attribute": "country",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "Country",
+				"data_type": "string"
+			},
+			{
+				"class": {
+					"class_name": "Costumers",
+					"class_attribute": "state",
+					"data_type": "string"
+				},
+				"domain_data": {
+					"data_attribute": "State/Province",
+					"data_type": "string"
+				}
+			},
+			{
+				"class": {
+					"class_name": "Costumers",
+					"class_attribute": "region",
+					"data_type": "string"
+				},
+				"domain_data": {
+					"data_attribute": "Region",
+					"data_type": "string"
+				}
+			},
+			{
+				"class": {
+					"class_name": "Costumers",
+					"class_attribute": "postal_code",
+					"data_type": "string"
+				},
+				"domain_data": {
+					"data_attribute": "Postal Code",
+					"data_type": "string"
+				}
+			}
+		}
+	]
+}

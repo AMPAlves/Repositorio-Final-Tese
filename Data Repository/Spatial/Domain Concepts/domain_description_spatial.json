@@ -1,0 +1,4 @@
+{
+	"domainID": "12",
+	"description": "The domain comprises information about cities, represented by the city entity, with attributes including name, latitude, longitude, country of origin with ISO-2 and ISO-3 codes, country name, administrative region, capital status, estimated population, unique identifier, and population density per square kilometer. The "Country" entity has attributes related to the country, such as ISO codes and name. There is a relationship between the entities, indicating that each city belongs to a country. This dataset provides a comprehensive view of the geographical and demographic characteristics of different cities and countries. "
+}

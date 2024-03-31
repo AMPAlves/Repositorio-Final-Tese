@@ -1,0 +1,17 @@
+{
+	"questionID": "1411",
+	"taskID": "14112",
+	"task_selection": [
+		{
+			"task": "Identify",
+			"subtask":[
+				{
+					"task": "Determine Distribution"
+				}
+			],
+			"domain_specification": "Which manufacturer produced the most cars in 1980?",
+			"analytical_specification": "Visualize the distribution of manufactured cars brands in 1980.",
+			"expected_output": "A list of multiple manufacturers brands produced in the year of 1980."
+		}
+	]
+}

@@ -1,0 +1,4 @@
+{
+	"domainID": "14",
+	"description": "Os elementos de vendas, produtos, pedidos e clientes fazem parte do domínio de negócios numa operação comercial. Neste contexto, as vendas englobam transações comerciais, a venda de produtos ou serviços aos clientes. No âmbito dos produtos, são geridos detalhes como características, preços, estoque e catálogo. Os pedidos referem-se ao processo de receber e processar solicitações de compra, com informações sobre produtos escolhidos, quantidades, status do pedido e entrega. A classe dos clientes envolve dados sobre os consumidores, incluindo informações demográficas, histórico de compras, preferências e detalhes de contato. "
+}

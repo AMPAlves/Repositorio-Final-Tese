@@ -1,0 +1,82 @@
+{
+	"domainID": "12",
+	"dataset": [
+		{
+			"datasetID": "121",
+			"dataset_files": [
+				{
+					"dataset_file_name": "dataset",
+					"domain_description": "",
+					"fields": [
+						{
+							"field_name": "city",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "city_ascii",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "lat",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "lng",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "float"
+						},
+						{
+							"field_name": "capital",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "population",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "id",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "country",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "string"
+						},
+						{
+							"field_name": "iso2",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "date"
+						},
+						{
+							"field_name": "iso3",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "integer"
+						},
+						{
+							"field_name": "admin_name",
+							"field_description": "",
+							"field_structure":"row",
+							"field_datatype": "date"
+						}
+					]
+				}
+			]
+		}
+	]
+}

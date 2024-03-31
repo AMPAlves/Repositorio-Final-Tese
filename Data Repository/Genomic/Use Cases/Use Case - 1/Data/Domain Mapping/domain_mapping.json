@@ -1,0 +1,70 @@
+{
+	"mapping": [
+		{
+			"class": {
+				"class_name": "Chromosome",
+				"class_attribute": "name",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "CHROM",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "VariationPosition",
+				"class_attribute": "start",
+				"data_type": "long integer"
+			},
+			"domain_data": {
+				"data_attribute": "POS",
+				"data_type": "long integer"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Precise",
+				"class_attribute": "ref",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "REF",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Precise",
+				"class_attribute": "alt",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "ALT",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Genotype_Freq",
+				"class_attribute": "genotype",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "GENOTYPE",
+				"data_type": "string"
+			}
+		},
+		{
+			"class": {
+				"class_name": "Gene",
+				"class_attribute": "geneSynonym",
+				"data_type": "string"
+			},
+			"domain_data": {
+				"data_attribute": "GENE",
+				"data_type": "string"
+			}
+		}
+	]
+}

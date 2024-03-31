@@ -1,0 +1,4 @@
+{
+	"domainID": "13",
+	"description": "The field of genomics involves research into the functions of genes and genomes, with crucial applications in areas such as medicine, biotechnology and evolution. The complete genome of an organism, which includes its DNA and all the gene sequences, contains the information necessary for the development and functioning of that organism. Genome analysis is fundamental to understanding genetic diseases, cancer and other complex conditions. The concpetual model from this domain represents a genomic domain that has Chromosomes containing Variants. This Chromosomes have Elements, including Genes as a subclass. Variants can be Imprecise or Precise, the latter having detailed information about reference and alternative sequences. In addition, Precise Variants also have associations with genotype frequencies and specific positions in genomic variation."
+}

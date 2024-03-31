@@ -1,0 +1,19 @@
+{
+	"questionID": "1311",
+	"taskID": "13111",
+	"task_selection": [
+		{	
+			"task": "Derive",
+			"subtask":[
+				{
+					"task": "Compute Attribute",
+					"field_name": "Left Allele Index",
+					"formula": "[x.split('/',1)[0] for x in featured_dataset['GENOTYPE'].to_list()]"
+				}
+			],
+			"domain_specification": "Which are the left alelles indices of a gene, for each existing position?",
+			"analytical_specification": "Create the left alelle indices attribute of a gene, for each existing position",
+			"expected_output": "A dataset with a new left alelle indices attribute"
+		}
+	]
+}

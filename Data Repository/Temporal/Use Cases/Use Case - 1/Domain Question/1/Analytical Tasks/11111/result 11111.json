@@ -1,0 +1,57 @@
+{
+	"questionID": "1111",
+	"taskID": "11111",
+	"output": {
+		"target_type": "dataset",
+		"target": {
+			"attribute": [
+				{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			},
+			{
+				"attribute_name": {},
+				"attribute_type": {},
+				"values": []
+			}
+			],
+			"item": [
+				{
+				"item_structure": [],
+					"attributes": [
+						{
+							"attribute_name": {},
+							"attribute_type": {},
+							"values": []
+						}
+					]
+				}
+			],
+			"dataset": [
+				{
+					"dataset_structure": "table",
+					"items": [
+						{
+							"item_structure": "row",
+							"attributes": [
+								{
+									"attribute_name": "Date",
+									"order": 0,
+									"attribute_type": "continuous",
+									"values": []
+								},
+								{
+									"attribute_name": "Open",
+									"order": 1,
+									"attribute_type": "nominal",
+									"values": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

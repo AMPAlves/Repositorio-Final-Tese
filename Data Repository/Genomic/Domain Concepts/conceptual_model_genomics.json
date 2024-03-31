@@ -1,0 +1,90 @@
+{
+  "conceptual_model": {
+    "name_model": "Genomic Conceptual Model",
+    "classes": [
+      {
+        "class_name": "Chromosome",
+        "attributes": [
+          { "attribute_name": "id", "type": "integer" },
+          { "attribute_name": "name", "type": "string" }
+        ],
+        "associations": [
+            {
+              "class_name": "Variant",
+              "attributes": [
+                { "attribute_name": "id", "type": "integer" },
+                { "attribute_name": "date", "type": "date" },
+                { "attribute_name": "name", "type": "string" },
+                { "attribute_name": "description", "type": "string" }
+              ]
+            }
+          ],
+        "composition": [
+          {
+          "class_name": "ChromosomeElement",
+          "attributes": [
+          { "attribute_name": "id", "type": "integer" },
+          { "attribute_name": "name", "type": "string" },
+          { "attribute_name": "strand", "type": "string" },
+          { "attribute_name": "description", "type": "string" }
+            ],
+            "subclasses":[
+              {
+                "class_name": "TranscriptableElement",
+                "subclasses":[
+                  {
+                    "class_name": "Gene",
+                    "attributes": [
+                    { "attribute_name": "/biotype", "type": "integer" },
+                    { "attribute_name": "status", "type": "string" },
+                    { "attribute_name": "/gcPercentage", "type": "float" },
+                    { "attribute_name": "geneSynonym", "type": "string" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class_name": "Variation",
+        "attributes": [
+          { "attribute_name": "id", "type": "integer" },
+          { "attribute_name": "date", "type": "date" },
+          { "attribute_name": "name", "type": "string" },
+          { "attribute_name": "description", "type": "string" }
+        ],
+        "subclasses":[
+          {
+            "class_name": "Imprecise"
+          },
+          {
+            "class_name": "Precise",
+            "attributes": [
+              { "attribute_name": "ref", "type": "string" },
+              { "attribute_name": "alt", "type": "string" }
+            ],
+            "associations": [
+              {
+                "association_class": "Genotype_Freq",
+                "attributes": [
+                  { "attribute_name": "genotype", "type": "string" },
+                  { "attribute_name": "frequency", "type": "float" }
+                ]
+              },
+              {
+                "association_class": "VariationPosition",
+                "attributes": [
+                  { "attribute_name": "start", "type": "long" },
+                  { "attribute_name": "end", "type": "long" }
+                ]
+              }
+            ]
+          }
+        
+        ]
+      }
+    ]
+  }
+}

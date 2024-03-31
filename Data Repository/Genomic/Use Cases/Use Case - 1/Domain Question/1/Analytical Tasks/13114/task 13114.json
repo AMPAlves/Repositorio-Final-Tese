@@ -1,0 +1,19 @@
+{
+	"questionID": "1311",
+	"taskID": "13114",
+	"task_selection": [
+		{	
+			"task": "Derive",
+			"subtask":[
+				{
+					"task": "Compute Attribute",
+					"field_name": "Right Allele",
+					"formula": "[featured_dataset['REF'].to_list()[x] if featured_dataset['Right Allele Index'].to_list()[x] == '0' else featured_dataset['ALT'].to_list()[x].split(',',int(featured_dataset['Right Allele Index'].to_list()[x]))[int(featured_dataset['Right Allele Index'].to_list()[x])-1] for x in range(len(featured_dataset['Right Allele Index'].to_list()))]"
+				}
+			],
+			"domain_specification": "Which are the right alelles of a gene, for each existing position?",
+			"analytical_specification": "Create the right alelle attribute of a gene, for each existing position",
+			"expected_output": "A dataset with a new right alelle attribute"
+		}
+	]
+}

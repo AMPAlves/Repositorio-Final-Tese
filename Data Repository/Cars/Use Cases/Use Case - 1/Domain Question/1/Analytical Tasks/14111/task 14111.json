@@ -1,0 +1,21 @@
+{
+	"questionID": "1411",
+	"taskID": "14111",
+	"task_selection": [
+		{
+			"filter":"featured_dataset[featured_dataset['year'] == 80]",
+			"task": "Derive",
+			"subtask":[
+				{
+					"task": "Aggregate" ,
+					"type": "count" ,
+					"attribute": "brand" ,
+					"groupby": "brand"
+				}
+			],
+			"domain_specification": "Which manufacturer produced the most cars in 1980?",
+			"analytical_specification": "Count the number of cars produced, per manufacturer, in 1980.",
+			"expected_output": "List with the number of cars produced, per manufacturer, in 1980."
+		}
+	]
+}
